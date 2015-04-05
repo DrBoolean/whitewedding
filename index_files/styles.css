@@ -2150,25 +2150,18 @@ header#top {
   height: 100%; }
 
 footer {
-  width: auto;
-  max-width: 67.5em;
+  position: fixed;
+  bottom: 0;
+  background-color: #efefef;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
   border-top: double 6px #d6d4cf;
   text-align: center;
-  margin: 0 0.9375em; }
-  footer .social {
-    margin: 2em 0 0; }
-  footer .newsletter {
-    margin: 2em 0 0; }
-  footer .copyright {
-    margin: 1.2em 0 0; }
-    footer .copyright p {
-      font-size: 0.8125em;
-      color: #bebab2; }
-  footer .flipp {
-    margin: 1.4em 0 0; }
+  }
   @media (min-width: 48em) {
     footer {
-      height: 4.4375em; }
+      height: 3.5em; }
       footer div {
         float: left; }
       footer .social, footer .newsletter, footer .copyright, footer .flipp {
@@ -2183,7 +2176,7 @@ footer {
       footer .newsletter {
         text-align: left;
         width: 70%;
-        padding: 7px 3%; }
+        padding: 0px 3%; }
       footer .copyright {
         width: 45.5%;
         margin-left: 22%; }
@@ -2272,7 +2265,7 @@ footer {
       -o-background-size: cover;
       -webkit-background-size: cover;
       background-size: cover; } }
-  @media (min-width: 64.07em) {
+  @media (min-width: 14.07em) {
     #one.home-slide {
       background-attachment: fixed !important; } }
 
@@ -2344,10 +2337,10 @@ footer {
     .home-headline {
       position: absolute; }
       .home-headline#headline-one {
-        top: 50%;
-        left: 54%;
-        margin-top: -13.5em;
-        width: 307px; }
+        top: 35%;
+        width: 100%; 
+        left: 0%;
+        margin-top: -14.5em; }
       .home-headline#headline-two {
         top: 50%;
         left: 13%;
@@ -2355,14 +2348,14 @@ footer {
         width: 380px; }
       .home-headline#headline-three {
         top: 58%;
-        right: 10%;
+        right: 15%;
         margin-top: -14.5em;
-        width: 425px; }
+        width: 625px; }
       .home-headline#headline-four {
         top: 40%;
-        right: 5%;
+        right: 10%;
         margin-top: -13.5em;
-        width: 525px; }
+        width: 725px; }
       .home-headline#headline-five {
         top: 50%;
         left: 15%;
@@ -2385,12 +2378,12 @@ footer {
       margin-top: -13.25em; }
     .home-headline#headline-three {
       top: 53%;
-      width: 523px;
+      width: 823px;
       margin-top: -14.5em; }
     .home-headline#headline-four {
       top: 44%;
-      right: 9%;
-      width: 579px;
+      right: 19%;
+      width: 879px;
       margin-top: -13.5em; }
     .home-headline#headline-five {
       top: 50%;
