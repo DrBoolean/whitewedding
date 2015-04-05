@@ -947,8 +947,8 @@ button, .button {
   padding-left: 0.99em;
   font-size: 1em;
   background-color: transparent;
-  border-color: #d5912b;
-  color: #d5912b;
+  border-color: red;
+  color: red;
   -webkit-transition: background-color 300ms ease-out;
   -moz-transition: background-color 300ms ease-out;
   transition: background-color 300ms ease-out; }
@@ -960,7 +960,7 @@ button, .button {
       padding-left: 1.5em; } }
 
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: #d5912b; }
+  background-color: red; }
 
 button:hover, button:focus, .button:hover, .button:focus {
   color: #f3f0ea; }
@@ -1596,7 +1596,7 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, t
 
 /* Default Link Styles */
 a {
-  color: #d5912b;
+  color: red;
   text-decoration: none;
   line-height: inherit; }
 
@@ -1892,14 +1892,14 @@ a.button-back:before,
 
 a.icon-phone:before {
   content: "\70";
-  color: #d5912b;
+  color: red;
   font-size: 2em;
   vertical-align: middle;
   margin-right: 0.25em; }
 
 a.icon-mail:before {
   content: "\6d";
-  color: #d5912b;
+  color: red;
   font-size: 2em;
   vertical-align: middle;
   margin-right: 0.25em; }
@@ -2458,7 +2458,7 @@ footer {
       #nav-slide .active, #nav-slide .active:hover {
         background-color: transparent;
         border-radius: 0;
-        color: #d5912b; }
+        color: red; }
       #nav-slide .active:before {
         content: "\78";
         font-size: 1.2em;
@@ -2749,7 +2749,7 @@ footer {
 label.input-error,
 input.input-error,
 textarea.input-error {
-  border: 3px solid #d5912b; }
+  border: 3px solid red; }
 
 .form-button-group .button {
   width: 100%; }
@@ -2847,7 +2847,7 @@ textarea.input-error {
   padding: 0.5em;
   cursor: pointer;
   z-index: 8040;
-  background-color: #d5912b;
+  background-color: red;
   border-radius: 999px;
   -moz-transition-property: "background-color";
   -o-transition-property: "background-color";
@@ -3100,7 +3100,7 @@ textarea.input-error {
   line-height: 1;
   z-index: 2; }
   .status.pre-order {
-    background-color: #d5912b; }
+    background-color: red; }
 
 .collection-content {
   padding: 2em 0;
@@ -3171,7 +3171,7 @@ textarea.input-error {
     color: #e89518;
     text-shadow: 0 0 5px rgba(243, 240, 234, 0.7); }
     .collection-banner .button-back:hover {
-      color: #d5912b; }
+      color: red; }
   .collection-banner .banner-info {
     position: absolute;
     bottom: 0;
