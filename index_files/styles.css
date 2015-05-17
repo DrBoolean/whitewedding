@@ -2266,14 +2266,14 @@ footer {
       background-attachment: fixed !important; } }
 
 #two.home-slide {
-  background: url(../images/home-slide-two-m.jpg) no-repeat center center;
+  background: url(../images/silent.jpg) no-repeat center center;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover; }
   @media (min-width: 18em) {
     #two.home-slide {
-      background: url(../images/home-slide-two.jpg) no-repeat center center;
+      background: url(../images/silent.jpg) no-repeat center center;
       -moz-background-size: cover;
       -o-background-size: cover;
       -webkit-background-size: cover;
